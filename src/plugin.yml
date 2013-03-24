@@ -1,0 +1,18 @@
+name: EasyMail
+version: 1.0
+author: SoaringCats
+authors: [jamietech]
+website: http://d.jamiete.ch
+main: ch.jamiete.easymail.EasyMail
+
+commands:
+  sendmail:
+    aliases: [send]
+    description: Sends mail
+    usage: /<command> <username>
+    permission: easymail.sendmail
+  getmail:
+    aliases: [mail]
+    description: Gets mail
+    usage: /<command>
+    permission: easymail.receivemail
